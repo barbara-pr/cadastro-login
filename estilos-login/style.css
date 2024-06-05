@@ -14,7 +14,7 @@ h1, h5{
     margin: 15px;
 }
 
-form > p{
+p{
     padding: 10px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ label{
     display: none;
 }
 
-.campoEmail,
+.campoUsuario,
 .campoSenha{
     background-color: #3f3529;
     display: flex;
@@ -50,7 +50,7 @@ label{
     border-radius: 3px;
 } 
 
-#iemail, 
+#iusuario, 
 #isenha{
     border: none; 
     flex: 1; /* para o input ocupar todo o espaço disponível no contêiner */
@@ -58,35 +58,26 @@ label{
     border-radius: 3px;
 }
 
-.botao{
+.botao {
     display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 #entrar{
-    flex: 1;
-    padding: 9px;
-    width: 40%;
+    margin: auto;
+    padding: 12px;
+    width: 20%;
     background: #272726;
     color: white;
-    font-weight: bold;
-    margin: 20px 10px 20px 3px;
+    font-weight: bolder;
+    margin: 10px 10px;
     border-radius: 5px;
     border: none;
     transition: all .1s ease-out;
 }
 
-#esqueci{
-    flex: 1;
-    padding: 4px;
-    width: 30%;
-    font-weight: bold;
-    margin: 20px 5px 20px 2px;
-    border-radius: 5px;
-    border: 1px solid rgba(163, 162, 162, 0.795);
-}
-
-#entrar:hover,
-#esqueci:hover{
+#entrar:hover{
     background: #afafafd5;
     color: black;
     cursor: pointer;
@@ -94,7 +85,7 @@ label{
 
 main{
     min-width: 60vw;
-    max-width: 70vw;
+    max-width: 400px;
     max-height: 100vh;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
@@ -108,6 +99,9 @@ main{
 
 body, html{
     background-image: url(../imagem/R.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 }
