@@ -1,0 +1,57 @@
+@media screen and (min-width: 760px) and (max-width: 992px){
+    main{
+        min-width: 768px;
+        max-width: 992px;
+    }
+
+    form{
+        width: 70%;
+        float: right;
+    }
+
+    div#imagem{
+        width: 23%;
+        height: 390px;
+    }
+
+    #imagem{
+        float: left;
+    }
+
+    .campoEmail input{
+        width: calc(65% - 50px);
+    }
+
+    .campoSenha input{
+        width: calc(65% - 50px);
+    }
+}
+
+@media screen and (min-width: 992px){
+    main{
+        width: 950px;
+        transform: translate(5%, 100%);
+    }
+
+    form{
+        width: 50%;
+        float: left;
+    }
+
+    div#imagem{
+        width: 40%;
+        height: 390px;
+    }
+
+    #imagem{
+        float: right;
+    }
+
+    .campoEmail input{
+        width: calc(50% - 81px);
+    }
+
+    .campoSenha input{
+        width: calc(50% - 81px);
+    }
+}

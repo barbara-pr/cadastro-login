@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos-login/media-query.css">
+    <link rel="shortcut icon" href="imagem/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos-login/style.css">
+    <title>Tela de Login</title>
+</head>
+<body>
+    <main>
+        <section>
+                <div id="imagem"> 
+                </div>
+
+            <div class="container">
+                <form action="./Login feito/login.html" method="POST" autocomplete="on">
+                    <h1>Login</h1>
+
+                    <h5>Seja bem-vindo(a) novamente.</h5> 
+                    <p>Faça login para acessar sua conta!</p>
+
+                    <div class="campoEmail">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="email" id="iemail" placeholder="E-mail" required autocomplete="email" maxlenght="30">
+                        <label for="iemail">E-mail</label>
+                    </div>
+
+                    <div class="campoSenha">  
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" required autocomplete="current-password" minlength="8" maxlength="20">
+                        <label for="isenha">Senha</label> 
+                    </div>
+
+                    <div class="botao">
+                        <input id="entrar" type="submit" value="Entrar">
+                        <input id="esqueci" type="submit" value="Esqueci a senha">
+                    </div>
+                </form>  
+            </div>
+        </section>
+    </main>
+</body>
+</html>
