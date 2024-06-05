@@ -93,8 +93,8 @@ label{
 } 
 
 main{
-    min-width: 45vw;
-    max-width: 50vw;
+    min-width: 60vw;
+    max-width: 70vw;
     max-height: 100vh;
     transition: width .3s, height .3s;
     transition-timing-function: ease;
